@@ -1,3 +1,9 @@
+*   Reset a new session directly after its creation in ActionDispatch::IntegrationTest#open_session
+
+    Fixes Issue #22742
+
+    *Tawan Sierek*
+
 ## Rails 5.0.7 (March 29, 2018) ##
 
 *   Remove deprecation on `ActionController::Parameters#to_hash` when the instance is
